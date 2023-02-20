@@ -1,0 +1,7 @@
+#!/bin/bash
+
+backup=$</home/user/files)
+place=$</home/user/backup)
+data='date +%Y-%m-%d'
+
+gzip -c $backup/files.txt > $place/password.txt.$data.gz
